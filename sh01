@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "enter any character "
+read char
+if [[ $char == [aeiou] ]]
+then
+echo "$char is a vovel"
+else
+echo "$char is not a vovel"
+fi
